@@ -1,0 +1,17 @@
+.sidebarWorkspace:hover>h4{
+    color: white;
+    background-color: #1F1D2B;
+}
+
+.sidebarWorkspace>h4{
+    display: flex;
+    padding-left: 15px;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+
+.sidebarWorkspace__dash{
+    font-size: 30px;
+    padding: 8px;
+}

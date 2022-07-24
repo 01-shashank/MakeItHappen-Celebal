@@ -1,0 +1,41 @@
+.todoHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    padding: 10px;
+
+}
+
+.todoHeader__dash{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.todoHeader__left>h3{
+    color: black;
+}
+
+
+.todoHeader__left{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.todoHeader__right{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* flex: 0.5; */
+}
+
+.todoHeader__right>.MuiSvgIcon-root{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.todoHeader__right>.MuiSvgIcon-root:hover{
+    color: white;
+}

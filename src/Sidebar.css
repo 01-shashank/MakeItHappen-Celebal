@@ -1,0 +1,44 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex: 0.25;
+    height: 100vh;
+    background-color: #474553;
+}
+
+.sidebar__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #474553;
+    color: white;
+    border-bottom: 3px solid #5F5E6A;
+}
+
+.sidebar__workspace{
+    flex: 1;
+}
+
+.sidebar__addworkspace{
+    cursor: pointer;
+}
+
+
+.sidebar__addworkspace:hover{
+    color: white;
+}
+
+.sidebar__workspaceHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #494654;
+    color: darkgray;
+}
+
+.sidebar__header{
+    display: flex;
+    align-items: center;
+}

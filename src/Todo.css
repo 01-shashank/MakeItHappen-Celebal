@@ -1,0 +1,41 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    background-color: #F5AD8C;	
+    height: 100vh;
+
+}
+
+.todo__tasks{
+    flex: 1;
+}
+
+.todo__input{
+    color: black;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px;
+    border-top: 1px solid gray;
+    background-color: #474b53;
+}
+
+.todo__input>form>input{
+    padding: 15px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline-width: 0;
+    color: white;
+    font-size: large;
+}
+.todo__input>form{
+    flex: 1;
+}
+
+.todo__inputButton{
+    display: none;
+}
