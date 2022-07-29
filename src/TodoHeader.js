@@ -20,11 +20,11 @@ function TodoHeader({workspaceName}) {
         </div>
         
         <div className="todoHeader__right">
-            <FilterAltIcon/>
-            <CircleNotificationsIcon/>
+            <FilterAltIcon sx={{ width: 40, height: 40 }}/>
+            <CircleNotificationsIcon sx={{ width: 40, height: 40 }}/>
             {/* <div className="todo__profileInfo"> */}
-            <Avatar onClick={()=>auth.signOut()} src= {user.photo} sx={{ width: 24, height: 24 }}/>
-                <h3>{user.displayName}</h3>
+            <Avatar onClick={()=>auth.signOut()} src= {user.photo} sx={{ width: 30, height: 30 }}/>
+                <h3>{user.displayName} </h3>
                 <p>#{user.uid.substring(0,5)}</p>
             {/* </div> */}
         </div>

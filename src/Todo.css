@@ -7,8 +7,13 @@
 
 }
 
+
+
+
+
 .todo__tasks{
     flex: 1;
+    overflow: scroll;
 }
 
 .todo__input{
@@ -37,5 +42,14 @@
 }
 
 .todo__inputButton{
+    display: none;
+}
+
+.todo__tasks{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.todo__tasks::-webkit-scrollbar{
     display: none;
 }

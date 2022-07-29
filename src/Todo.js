@@ -45,6 +45,7 @@ const setTask=e=>{
     <div className="todo">
         <TodoHeader workspaceName={workspaceName}/>
         <div className="todo__tasks">
+          <div className="scroll-div">
           {tasks.map((task)=>(
             <Tasks
             timestamp={task.timestamp}
@@ -53,7 +54,7 @@ const setTask=e=>{
             
             />
           ))}
-            
+            </div>
         </div>
 
         <div className="todo__input">
